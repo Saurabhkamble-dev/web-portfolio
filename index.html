@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Saurabh Kamble — Full Stack & Data Analytics Portfolio</title>
+  <meta name="description" content="Portfolio of Saurabh Kamble — Full Stack Developer & Data Analyst. Projects, skills, certificates, testimonials and contact." />
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="container">
+
+  <header>
+    <div class="brand">
+      <div class="logo">SK</div>
+      <div>
+        <div style="font-weight:800">Saurabh Kamble</div>
+        <div style="font-size:13px;color:var(--muted)">Full Stack Developer • Data Analyst</div>
+      </div>
+    </div>
+    <nav>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#certs">Certificates</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="hamburger" id="hamburger"><span></span><span></span><span></span></div>
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#certs">Certificates</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="card-3d" id="card3d">
+      <div class="card-inner">
+        <div class="card-content">
+          <h1 class="name">Saurabh Kamble</h1>
+          <div class="role">Full Stack Developer & Data Analytics</div>
+          <p class="bio">I design and build delightful web experiences and extract actionable insights from complex datasets.</p>
+          <div class="cta">
+            <button class="btn" onclick="downloadResume()">Download Resume</button>
+            <button class="btn ghost" onclick="document.querySelector('#projects').scrollIntoView({behavior:'smooth'})">See Projects</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="right">
+      <div class="stats">
+        <div class="stat"><h4>8+</h4><p>Projects shipped</p></div>
+        <div class="stat"><h4>3+</h4><p>Years experience</p></div>
+        <div class="stat"><h4>95%</h4><p>Client satisfaction</p></div>
+      </div>
+
+      <div class="section" id="skills">
+        <h3>Skills</h3>
+        <div class="skills">
+          <!-- Frontend -->
+          <div class="skill">HTML5</div><div class="skill">CSS3 / SCSS</div><div class="skill">JavaScript</div>
+          <div class="skill">TypeScript</div><div class="skill">React</div><div class="skill">Next.js</div><div class="skill">Tailwind CSS</div>
+          <!-- Backend -->
+          <div class="skill">Node.js</div><div class="skill">Express</div><div class="skill">REST APIs</div><div class="skill">GraphQL</div>
+          <div class="skill">PostgreSQL</div><div class="skill">MongoDB</div><div class="skill">Redis</div>
+          <!-- Data / Analytics -->
+          <div class="skill">Python</div><div class="skill">Pandas</div><div class="skill">NumPy</div><div class="skill">Machine Learning</div>
+          <div class="skill">Data Visualization</div><div class="skill">Power BI</div><div class="skill">Tableau</div>
+          <!-- DevOps / Tools -->
+          <div class="skill">Docker</div><div class="skill">Kubernetes</div><div class="skill">AWS</div><div class="skill">CI/CD</div>
+          <div class="skill">Git & GitHub</div><div class="skill">Linux</div>
+          <!-- Other -->
+          <div class="skill">Agile / Scrum</div><div class="skill">Unit Testing</div><div class="skill">SEO Basics</div><div class="skill">Responsive Design</div>
+        </div>
+      </div>
+
+      <div class="section" id="certs">
+        <h3>Certificates</h3>
+        <div class="certs">
+          <div class="cert"><strong>Full Stack Web Dev —</strong> Udemy — 2024</div>
+          <div class="cert"><strong>Data Analytics —</strong> Coursera — 2023</div>
+          <div class="cert"><strong>SQL for Data Science —</strong> Coursera — 2023</div>
+          <div class="cert"><strong>AWS Cloud Practitioner —</strong> AWS — 2024</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="projects">
+    <h3>Projects</h3>
+    <div class="projects">
+      <article class="project">
+        <img src="https://www.geckoboard.com/uploads/Ecommerce-KPI-dashboard.png" alt="E-Commerce Dashboard">
+        <div class="meta"><h4>E-Com Dashboard</h4><p>React dashboard with KPIs and ETL pipelines.</p></div>
+      </article>
+      <article class="project">
+        <img src="https://cdn.cmsfly.com/635bcad9b8a74e0091632998/images/Redfinwebsite2-1ZMYW.png" alt="Realtime Chat App">
+        <div class="meta"><h4>Realtime Chat App</h4><p>Socket.io + Node.js for instant messaging and rooms.</p></div>
+      </article>
+      <article class="project">
+        <img src="https://images.unsplash.com/photo-1556742031-c6961e8560b0?auto=format&fit=crop&w=900&q=60" alt="Analytics Platform">
+        <div class="meta"><h4>Data Analytics Platform</h4><p>Python + Plotly dashboards for enterprise reporting.</p></div>
+      </article>
+      <article class="project">
+        <img src="https://repository-images.githubusercontent.com/384091706/a1614500-e03f-11eb-986a-30f6f0d4f1cc" alt="Portfolio Website">
+        <div class="meta"><h4>Portfolio Website</h4><p>Next.js + Tailwind responsive personal site.</p></div>
+      </article>
+      <article class="project">
+        <img src="https://images.unsplash.com/photo-1492724441997-5dc865305da7?auto=format&fit=crop&w=900&q=60" alt="Customer Segmentation">
+        <div class="meta"><h4>Customer Segmentation</h4><p>Machine learning pipeline to identify high-value segments.</p></div>
+      </article>
+      <article class="project">
+        <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=900&q=60" alt="Task Manager SaaS">
+        <div class="meta"><h4>Task Manager SaaS</h4><p>Multi-tenant SaaS app with billing & admin panel.</p></div>
+      </article>
+      <article class="project">
+        <img src="https://webbylab.com/wp-content/webp-express/webp-images/uploads/2024/04/upload_660ea7a1963d7.png.webp" alt="IoT Dashboard">
+        <div class="meta"><h4>IoT Monitoring</h4><p>Real-time MQTT dashboard for sensor data visualization.</p></div>
+      </article>
+      <article class="project">
+        <img src="https://hptpedia.hyper-trade.com/content/images/2023/08/Sales-forecast-1.jpg" alt="Forecasting">
+        <div class="meta"><h4>Sales Forecasting</h4><p>Prophet & ARIMA models with interactive visual reports.</p></div>
+      </article>
+    </div>
+  </section>
+
+  <section class="section" id="testimonials">
+    <h3>Testimonials</h3>
+    <div class="testimonials">
+      <div class="testimonial"><p>"Saurabh built our analytics dashboard with precision and delivered it ahead of schedule. Fantastic experience."</p><h5>— Priya R. Bengaluru</h5></div>
+      <div class="testimonial"><p>"Great understanding of backend architecture and data pipelines. Our performance improved remarkably."</p><h5>— Rohit M. Pune</h5></div>
+      <div class="testimonial"><p>"Saurabh is a thorough professional—quick to adapt and always focused on quality output."</p><h5>— Anika S. Mumbai</h5></div>
+      <div class="testimonial"><p>"He transformed our legacy codebase into a modern, scalable system without any downtime."</p><h5>— Vivek K. Hyderabad</h5></div>
+      <div class="testimonial"><p>"Excellent collaborator with strong problem-solving skills. Our cloud migration was seamless."</p><h5>— Meera P. Chennai</h5></div>
+      <div class="testimonial"><p>"Dependable, creative, and technically sound. Would definitely work with him again."</p><h5>— Arjun D. Delhi</h5></div>
+    </div>
+  </section>
+
+  <h1 id="contact">Contact Us</h1>
+  <form id="contactForm">
+    <label>Name</label>
+    <input type="text" required>
+    <label>Email</label>
+    <input type="email" required>
+    <label>Message</label>
+    <textarea rows="5" required></textarea>
+    <button type="submit">Send</button>
+  </form>
+
+  <p id="successMessage">✅ Your message has been sent successfully!</p>
+
+  <footer>&copy; 2025 Dev Saurabh Kamble</footer>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
